@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F10856829F9D94000DD50EC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10856729F9D93F00DD50EC /* MapView.swift */; };
+		7F10856929F9D94000DD50EC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10856729F9D93F00DD50EC /* MapView.swift */; };
+		7F10856B29F9DFC200DD50EC /* ResearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10856A29F9DFC200DD50EC /* ResearchView.swift */; };
+		7F10856C29F9DFC200DD50EC /* ResearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10856A29F9DFC200DD50EC /* ResearchView.swift */; };
+		7F10856E29F9E0B900DD50EC /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10856D29F9E0B900DD50EC /* FutureView.swift */; };
+		7F10856F29F9E0B900DD50EC /* FutureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10856D29F9E0B900DD50EC /* FutureView.swift */; };
+		7F10857129FA2EDC00DD50EC /* Atraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10857029FA2EDC00DD50EC /* Atraction.swift */; };
+		7F10857229FA2EDC00DD50EC /* Atraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10857029FA2EDC00DD50EC /* Atraction.swift */; };
+		7F10857429FA33D400DD50EC /* ExhibitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10857329FA33D400DD50EC /* ExhibitionsView.swift */; };
+		7F10857529FA33D400DD50EC /* ExhibitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10857329FA33D400DD50EC /* ExhibitionsView.swift */; };
+		7F10857729FA34F400DD50EC /* DetailExhibitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10857629FA34F400DD50EC /* DetailExhibitionsView.swift */; };
+		7F10857829FA34F400DD50EC /* DetailExhibitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10857629FA34F400DD50EC /* DetailExhibitionsView.swift */; };
+		7F10857A29FA381000DD50EC /* Exhibition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10857929FA381000DD50EC /* Exhibition.swift */; };
+		7F10857B29FA381000DD50EC /* Exhibition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F10857929FA381000DD50EC /* Exhibition.swift */; };
+		7F2644C729F90D7B0054D88F /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644C629F90D7B0054D88F /* Tests_iOS.swift */; };
+		7F2644C929F90D7B0054D88F /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644C829F90D7B0054D88F /* Tests_iOSLaunchTests.swift */; };
+		7F2644D329F90D7B0054D88F /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644D229F90D7B0054D88F /* Tests_macOS.swift */; };
+		7F2644D529F90D7B0054D88F /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644D429F90D7B0054D88F /* Tests_macOSLaunchTests.swift */; };
+		7F2644D629F90D7B0054D88F /* MuzeumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644AE29F90D790054D88F /* MuzeumApp.swift */; };
+		7F2644D729F90D7B0054D88F /* MuzeumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644AE29F90D790054D88F /* MuzeumApp.swift */; };
+		7F2644D829F90D7B0054D88F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644AF29F90D790054D88F /* ContentView.swift */; };
+		7F2644D929F90D7B0054D88F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644AF29F90D790054D88F /* ContentView.swift */; };
+		7F2644DA29F90D7B0054D88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2644B029F90D7B0054D88F /* Assets.xcassets */; };
+		7F2644DB29F90D7B0054D88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2644B029F90D7B0054D88F /* Assets.xcassets */; };
+		7F2644EB29F910A10054D88F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644EA29F910A10054D88F /* MenuView.swift */; };
+		7F2644EC29F910A10054D88F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644EA29F910A10054D88F /* MenuView.swift */; };
+		7F2644EE29F911810054D88F /* AtractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644ED29F911810054D88F /* AtractionView.swift */; };
+		7F2644EF29F911810054D88F /* AtractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2644ED29F911810054D88F /* AtractionView.swift */; };
+		7FB75E2929FA60CB00CD8715 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB75E2829FA60CB00CD8715 /* ReservationView.swift */; };
+		7FB75E2A29FA60CB00CD8715 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB75E2829FA60CB00CD8715 /* ReservationView.swift */; };
+		7FB75E2C29FA714500CD8715 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB75E2B29FA714500CD8715 /* EventsView.swift */; };
+		7FB75E2D29FA714500CD8715 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB75E2B29FA714500CD8715 /* EventsView.swift */; };
+		7FB75E2F29FA715900CD8715 /* DetailEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB75E2E29FA715900CD8715 /* DetailEventsView.swift */; };
+		7FB75E3029FA715900CD8715 /* DetailEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB75E2E29FA715900CD8715 /* DetailEventsView.swift */; };
+		7FB75E3229FA795100CD8715 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB75E3129FA795100CD8715 /* VideoView.swift */; };
+		7FB75E3329FA795100CD8715 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB75E3129FA795100CD8715 /* VideoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F2644C329F90D7B0054D88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F2644A929F90D790054D88F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2644B429F90D7B0054D88F;
+			remoteInfo = "Muzeum (iOS)";
+		};
+		7F2644CF29F90D7B0054D88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F2644A929F90D790054D88F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2644BA29F90D7B0054D88F;
+			remoteInfo = "Muzeum (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F10856729F9D93F00DD50EC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7F10856A29F9DFC200DD50EC /* ResearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchView.swift; sourceTree = "<group>"; };
+		7F10856D29F9E0B900DD50EC /* FutureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureView.swift; sourceTree = "<group>"; };
+		7F10857029FA2EDC00DD50EC /* Atraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atraction.swift; sourceTree = "<group>"; };
+		7F10857329FA33D400DD50EC /* ExhibitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionsView.swift; sourceTree = "<group>"; };
+		7F10857629FA34F400DD50EC /* DetailExhibitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailExhibitionsView.swift; sourceTree = "<group>"; };
+		7F10857929FA381000DD50EC /* Exhibition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exhibition.swift; sourceTree = "<group>"; };
+		7F2644AE29F90D790054D88F /* MuzeumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzeumApp.swift; sourceTree = "<group>"; };
+		7F2644AF29F90D790054D88F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F2644B029F90D7B0054D88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F2644B529F90D7B0054D88F /* Muzeum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muzeum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2644BB29F90D7B0054D88F /* Muzeum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muzeum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2644BD29F90D7B0054D88F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7F2644C229F90D7B0054D88F /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2644C629F90D7B0054D88F /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		7F2644C829F90D7B0054D88F /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		7F2644CE29F90D7B0054D88F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2644D229F90D7B0054D88F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		7F2644D429F90D7B0054D88F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		7F2644EA29F910A10054D88F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		7F2644ED29F911810054D88F /* AtractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtractionView.swift; sourceTree = "<group>"; };
+		7FB75E2829FA60CB00CD8715 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		7FB75E2B29FA714500CD8715 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		7FB75E2E29FA715900CD8715 /* DetailEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventsView.swift; sourceTree = "<group>"; };
+		7FB75E3129FA795100CD8715 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F2644B229F90D7B0054D88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2644B829F90D7B0054D88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2644BF29F90D7B0054D88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2644CB29F90D7B0054D88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F2644A829F90D790054D88F = {
+			isa = PBXGroup;
+			children = (
+				7F2644AD29F90D790054D88F /* Shared */,
+				7F2644BC29F90D7B0054D88F /* macOS */,
+				7F2644C529F90D7B0054D88F /* Tests iOS */,
+				7F2644D129F90D7B0054D88F /* Tests macOS */,
+				7F2644B629F90D7B0054D88F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F2644AD29F90D790054D88F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7F10856D29F9E0B900DD50EC /* FutureView.swift */,
+				7F2644AE29F90D790054D88F /* MuzeumApp.swift */,
+				7F2644AF29F90D790054D88F /* ContentView.swift */,
+				7F2644B029F90D7B0054D88F /* Assets.xcassets */,
+				7F2644EA29F910A10054D88F /* MenuView.swift */,
+				7F2644ED29F911810054D88F /* AtractionView.swift */,
+				7F10856729F9D93F00DD50EC /* MapView.swift */,
+				7F10856A29F9DFC200DD50EC /* ResearchView.swift */,
+				7F10857029FA2EDC00DD50EC /* Atraction.swift */,
+				7F10857329FA33D400DD50EC /* ExhibitionsView.swift */,
+				7F10857629FA34F400DD50EC /* DetailExhibitionsView.swift */,
+				7F10857929FA381000DD50EC /* Exhibition.swift */,
+				7FB75E2829FA60CB00CD8715 /* ReservationView.swift */,
+				7FB75E2B29FA714500CD8715 /* EventsView.swift */,
+				7FB75E2E29FA715900CD8715 /* DetailEventsView.swift */,
+				7FB75E3129FA795100CD8715 /* VideoView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7F2644B629F90D7B0054D88F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F2644B529F90D7B0054D88F /* Muzeum.app */,
+				7F2644BB29F90D7B0054D88F /* Muzeum.app */,
+				7F2644C229F90D7B0054D88F /* Tests iOS.xctest */,
+				7F2644CE29F90D7B0054D88F /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F2644BC29F90D7B0054D88F /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F2644BD29F90D7B0054D88F /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		7F2644C529F90D7B0054D88F /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F2644C629F90D7B0054D88F /* Tests_iOS.swift */,
+				7F2644C829F90D7B0054D88F /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		7F2644D129F90D7B0054D88F /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F2644D229F90D7B0054D88F /* Tests_macOS.swift */,
+				7F2644D429F90D7B0054D88F /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F2644B429F90D7B0054D88F /* Muzeum (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2644DE29F90D7B0054D88F /* Build configuration list for PBXNativeTarget "Muzeum (iOS)" */;
+			buildPhases = (
+				7F2644B129F90D7B0054D88F /* Sources */,
+				7F2644B229F90D7B0054D88F /* Frameworks */,
+				7F2644B329F90D7B0054D88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muzeum (iOS)";
+			productName = "Muzeum (iOS)";
+			productReference = 7F2644B529F90D7B0054D88F /* Muzeum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F2644BA29F90D7B0054D88F /* Muzeum (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2644E129F90D7B0054D88F /* Build configuration list for PBXNativeTarget "Muzeum (macOS)" */;
+			buildPhases = (
+				7F2644B729F90D7B0054D88F /* Sources */,
+				7F2644B829F90D7B0054D88F /* Frameworks */,
+				7F2644B929F90D7B0054D88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muzeum (macOS)";
+			productName = "Muzeum (macOS)";
+			productReference = 7F2644BB29F90D7B0054D88F /* Muzeum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F2644C129F90D7B0054D88F /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2644E429F90D7B0054D88F /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				7F2644BE29F90D7B0054D88F /* Sources */,
+				7F2644BF29F90D7B0054D88F /* Frameworks */,
+				7F2644C029F90D7B0054D88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F2644C429F90D7B0054D88F /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 7F2644C229F90D7B0054D88F /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7F2644CD29F90D7B0054D88F /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2644E729F90D7B0054D88F /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				7F2644CA29F90D7B0054D88F /* Sources */,
+				7F2644CB29F90D7B0054D88F /* Frameworks */,
+				7F2644CC29F90D7B0054D88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F2644D029F90D7B0054D88F /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 7F2644CE29F90D7B0054D88F /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F2644A929F90D790054D88F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7F2644B429F90D7B0054D88F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7F2644BA29F90D7B0054D88F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7F2644C129F90D7B0054D88F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7F2644B429F90D7B0054D88F;
+					};
+					7F2644CD29F90D7B0054D88F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7F2644BA29F90D7B0054D88F;
+					};
+				};
+			};
+			buildConfigurationList = 7F2644AC29F90D790054D88F /* Build configuration list for PBXProject "Muzeum" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F2644A829F90D790054D88F;
+			productRefGroup = 7F2644B629F90D7B0054D88F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F2644B429F90D7B0054D88F /* Muzeum (iOS) */,
+				7F2644BA29F90D7B0054D88F /* Muzeum (macOS) */,
+				7F2644C129F90D7B0054D88F /* Tests iOS */,
+				7F2644CD29F90D7B0054D88F /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F2644B329F90D7B0054D88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2644DA29F90D7B0054D88F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2644B929F90D7B0054D88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2644DB29F90D7B0054D88F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2644C029F90D7B0054D88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2644CC29F90D7B0054D88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F2644B129F90D7B0054D88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB75E2C29FA714500CD8715 /* EventsView.swift in Sources */,
+				7F10857729FA34F400DD50EC /* DetailExhibitionsView.swift in Sources */,
+				7FB75E2929FA60CB00CD8715 /* ReservationView.swift in Sources */,
+				7F2644D829F90D7B0054D88F /* ContentView.swift in Sources */,
+				7F2644EB29F910A10054D88F /* MenuView.swift in Sources */,
+				7F10856829F9D94000DD50EC /* MapView.swift in Sources */,
+				7FB75E3229FA795100CD8715 /* VideoView.swift in Sources */,
+				7F2644EE29F911810054D88F /* AtractionView.swift in Sources */,
+				7F10857A29FA381000DD50EC /* Exhibition.swift in Sources */,
+				7F10856E29F9E0B900DD50EC /* FutureView.swift in Sources */,
+				7F2644D629F90D7B0054D88F /* MuzeumApp.swift in Sources */,
+				7FB75E2F29FA715900CD8715 /* DetailEventsView.swift in Sources */,
+				7F10856B29F9DFC200DD50EC /* ResearchView.swift in Sources */,
+				7F10857429FA33D400DD50EC /* ExhibitionsView.swift in Sources */,
+				7F10857129FA2EDC00DD50EC /* Atraction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2644B729F90D7B0054D88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB75E2D29FA714500CD8715 /* EventsView.swift in Sources */,
+				7F10857829FA34F400DD50EC /* DetailExhibitionsView.swift in Sources */,
+				7FB75E2A29FA60CB00CD8715 /* ReservationView.swift in Sources */,
+				7F2644D929F90D7B0054D88F /* ContentView.swift in Sources */,
+				7F2644EC29F910A10054D88F /* MenuView.swift in Sources */,
+				7F10856929F9D94000DD50EC /* MapView.swift in Sources */,
+				7FB75E3329FA795100CD8715 /* VideoView.swift in Sources */,
+				7F2644EF29F911810054D88F /* AtractionView.swift in Sources */,
+				7F10857B29FA381000DD50EC /* Exhibition.swift in Sources */,
+				7F10856F29F9E0B900DD50EC /* FutureView.swift in Sources */,
+				7F2644D729F90D7B0054D88F /* MuzeumApp.swift in Sources */,
+				7FB75E3029FA715900CD8715 /* DetailEventsView.swift in Sources */,
+				7F10856C29F9DFC200DD50EC /* ResearchView.swift in Sources */,
+				7F10857529FA33D400DD50EC /* ExhibitionsView.swift in Sources */,
+				7F10857229FA2EDC00DD50EC /* Atraction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2644BE29F90D7B0054D88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2644C929F90D7B0054D88F /* Tests_iOSLaunchTests.swift in Sources */,
+				7F2644C729F90D7B0054D88F /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2644CA29F90D7B0054D88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2644D529F90D7B0054D88F /* Tests_macOSLaunchTests.swift in Sources */,
+				7F2644D329F90D7B0054D88F /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F2644C429F90D7B0054D88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F2644B429F90D7B0054D88F /* Muzeum (iOS) */;
+			targetProxy = 7F2644C329F90D7B0054D88F /* PBXContainerItemProxy */;
+		};
+		7F2644D029F90D7B0054D88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F2644BA29F90D7B0054D88F /* Muzeum (macOS) */;
+			targetProxy = 7F2644CF29F90D7B0054D88F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F2644DC29F90D7B0054D88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F2644DD29F90D7B0054D88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7F2644DF29F90D7B0054D88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FB9F9Q783;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Muzeum.Muzeum;
+				PRODUCT_NAME = Muzeum;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F2644E029F90D7B0054D88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FB9F9Q783;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Muzeum.Muzeum;
+				PRODUCT_NAME = Muzeum;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F2644E229F90D7B0054D88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FB9F9Q783;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Muzeum.Muzeum;
+				PRODUCT_NAME = Muzeum;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7F2644E329F90D7B0054D88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FB9F9Q783;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Muzeum.Muzeum;
+				PRODUCT_NAME = Muzeum;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7F2644E529F90D7B0054D88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FB9F9Q783;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Muzeum.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Muzeum (iOS)";
+			};
+			name = Debug;
+		};
+		7F2644E629F90D7B0054D88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FB9F9Q783;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Muzeum.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Muzeum (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F2644E829F90D7B0054D88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FB9F9Q783;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Muzeum.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Muzeum (macOS)";
+			};
+			name = Debug;
+		};
+		7F2644E929F90D7B0054D88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FB9F9Q783;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Muzeum.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Muzeum (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F2644AC29F90D790054D88F /* Build configuration list for PBXProject "Muzeum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2644DC29F90D7B0054D88F /* Debug */,
+				7F2644DD29F90D7B0054D88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2644DE29F90D7B0054D88F /* Build configuration list for PBXNativeTarget "Muzeum (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2644DF29F90D7B0054D88F /* Debug */,
+				7F2644E029F90D7B0054D88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2644E129F90D7B0054D88F /* Build configuration list for PBXNativeTarget "Muzeum (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2644E229F90D7B0054D88F /* Debug */,
+				7F2644E329F90D7B0054D88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2644E429F90D7B0054D88F /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2644E529F90D7B0054D88F /* Debug */,
+				7F2644E629F90D7B0054D88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2644E729F90D7B0054D88F /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2644E829F90D7B0054D88F /* Debug */,
+				7F2644E929F90D7B0054D88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F2644A929F90D790054D88F /* Project object */;
+}
